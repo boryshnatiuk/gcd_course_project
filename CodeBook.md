@@ -27,7 +27,7 @@ test_labels <- read.table(paste0(location,"/test/y_test.txt"), col.names = "labe
 ```
 #### Subjects
 ```
-location = "gcd_course_project/UCI HAR Dataset"
+location = "UCI HAR Dataset"
 train_subjects <- read.table(paste0(location,"/train/subject_train.txt"), col.names = "subject")
 test_subjects <- read.table(paste0(location,"/test/subject_test.txt"), col.names = "subject")
 ```
@@ -156,5 +156,5 @@ sample_data_avg <- dcast(sample_melt, subject + activity ~ variable, mean)
 
 ### __Exporting Aggregated Dataset__
 ```
-write.table(sample_data_avg, file = "gcd_course_project/clean_data_aggreagted.txt", row.names=F)
+write.table(sample_data_avg, file = "clean_data_aggreagted.txt", row.names=F)
 ```

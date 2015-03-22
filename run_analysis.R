@@ -1,5 +1,5 @@
 
-location = "gcd_course_project/UCI HAR Dataset"
+location = "UCI HAR Dataset"
 
 #DATA
 
@@ -49,5 +49,5 @@ sample_melt <- melt(sample_data[,1:5], id = c("subject","activity"))
 sample_data_avg <- dcast(sample_melt, subject + activity ~ variable, mean)
 str(sample_data_avg)
 
-write.table(sample_data_avg, file = "gcd_course_project/clean_data_aggreagted.txt", row.names=F)
+write.table(sample_data_avg, file = "clean_data_aggreagted.txt", row.names=F)
 
