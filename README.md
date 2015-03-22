@@ -23,15 +23,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Good luck!
-
 
 Content
 ----
 
-1. UCI HAR Dataset includes all raw data used in this project
-2. CourseAssignment includes all files for the Course Project:
-	+ CourseAssignment.R with all the R code
-	+ clean_data.txt with the full dataset as defines in steps 1-4 above
-	+ clean_mean_data.txt with the dataset as described in step 5 above
-	+ CodeBook.md with description of the variables, the data, and the process of cleaning and tranforming the datasets
+1. UCI HAR Dataset includes all raw data used in this project.
+2. run_analysis.R with all the R code.
+3. clean_data_aggreagted.txt with the dataset as described in step 5 above.
+4. CodeBook.md with description of the variables, the data, and the process of cleaning and tranforming the datasets.
